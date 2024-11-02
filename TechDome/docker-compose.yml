@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./Techdome-frontend  # Adjust to the path of your frontend app
+      dockerfile: Dockerfile          # Ensure you have a Dockerfile in this directory
+    ports:
+      - "3000:3000"                   # Expose port 3000
+    environment:
+      - REACT_APP_API_URL=http://backend:5000  # Set environment variable for API URL
+    depends_on:
+      - backend                        # Wait for backend to be up before starting frontend
+
+  backend:
+    build:
+      context: ./Techdome-backend     # Adjust to the path of your backend app
+      dockerfile: Dockerfile          # Ensure you have a Dockerfile in this directory
+    ports:
+      - "5000:5000"                   # Expose port 5000
+    environment:
+      - DATABASE_URL=mongodb://db:27017/mydb  # MongoDB connection string
+    depends_on:
+      - db                             # Wait for db to be ready
+
+  db:
+    image: mongo                       # Use the official MongoDB image
+    ports:
+      - "27017:27017"                  # Expose port 27017 for MongoDB
+    volumes:
+      - mongo-data:/data/db            # Persist MongoDB data
+
+volumes:
+  mongo-data:                          # Define a named volume for MongoDB

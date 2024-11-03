@@ -44,7 +44,7 @@ Create Dockerflie for Backend And DB
 
 **7.Kubernetes Deployment**
 
-Kubernetes Manifests for Frontend, Backend and db
+Create Kubernetes Manifests for Frontend, Backend and DB
 including Deployment and Service file
 
 **Frontend**

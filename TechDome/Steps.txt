@@ -1,0 +1,30 @@
+
+ls
+cd
+
+--> 
+docker --version
+docker-compose --version
+minikube version
+kubectl version --client
+
+
+=> docker-compose up -d
+=> docker images
+=> docker ps
+=> show docker hub account
+=> show dockerhub containers
+
+==> minikube status
+
+==> kubectl get pods
+==> kubectl get services
+==> kubectl get all
+
+=> Check Application runs on MiniKube Level
+=>>
+1) minikube ssh
+2) curl http://10.96.210.129:3000
+3) curl http://10.105.121.132:5000
+4) kubectl exec -it backend-764bdd5689-4zfb8 -- bash
+

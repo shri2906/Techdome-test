@@ -67,7 +67,7 @@ including Deployment and Service file
 **8. Check Application Functionality**
 
 Once deployed, access the application inside Minikube. Interact with the application 
-
+inside steps.txt steps are mentioned in order for accessing the application
 **Frontend part**
 ![Alt text](/Screenshots/frontend-run-10.jpg)
 

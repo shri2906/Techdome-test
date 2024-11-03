@@ -28,3 +28,5 @@ Database: A persistent data store for application data.
 4) **kubectl**
 
 **4. Docker Compose Configuration**
+Create a docker-compose.yml file 
+![Alt text](Screenshots/demo-screenshot-2-(compose file).jpg)

@@ -55,6 +55,42 @@ including Deployment and Service file
 
 ![Alt text](/Screenshots/k8s-db-ss-7.jpg)
 
+**Docker Outputs**
+![Alt text](/Screenshots/docker-ss-8.jpg)
+
+**Kubernetes (k8s) Outputs**
+![Alt text](/Screenshots/k8s-ss-9.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

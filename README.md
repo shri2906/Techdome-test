@@ -30,3 +30,39 @@ Database: A persistent data store for application data.
 **4. Docker Compose Configuration**
 Create a docker-compose.yml file 
 ![Alt text](/Screenshots/docker-compose-file-ss-2.jpg)
+
+**5. Dockerfile for Frontend and Backend**
+Create Dockerflie for Frontend
+![Alt text](/Screenshots/dockerfile-frontend-ss-3.jpg)
+
+**6. Dockerfile for Frontend and Backend**
+Create Dockerflie for Backend And DB
+![Alt text](/Screenshots/backend-db-dockerfile-ss-4.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -39,6 +39,16 @@ Create Dockerflie for Frontend
 Create Dockerflie for Backend And DB
 ![Alt text](/Screenshots/backend-db-dockerfile-ss-4.jpg)
 
+**7.Kubernetes Deployment**
+Kubernetes Manifests for Frontend, Backend and db
+including Deployment and Service file
+**Frontend**
+![Alt text](/Screenshots/k8s-frontend-ss-5.jpg)
+**Backend**
+![Alt text](/Screenshots/k8s-backend-ss-6.jpg)
+**Database**
+![Alt text](/Screenshots/k8s-db-ss-7.jpg)
+
 
 
 

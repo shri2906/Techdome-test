@@ -102,6 +102,46 @@ Allocating sufficient resources for Minikube was crucial to prevent performance 
 
 **BONUS**
 
+**Terraform Files Documentation**
+
+**1. main.tf**
+
+The main.tf located in /Terraform/main.tf 
+
+This file is responsible for defining the AWS infrastructure components, including the VPC, subnets, and internet gateway.
+
+**2. variables.tf**
+
+The variables.tf in /Terraform/variables.tf
+
+This file defines the variables used throughout the Terraform configuration, including Docker images and service scaling parameters.
+
+**3. outputs.tf**
+
+The outputs.tf file specifies the output values that can be used after deploying the infrastructure.
+
+**Steps for Initialize Terraform**
+
+
+**cd terraform**
+
+The command initializes Terraform working directory
+
+**terraform init**
+
+The terraform plan command creates an execution plan, showing actions Terraform will take to reach the desired state.
+
+**terraform plan**
+
+The terraform apply command executes the proposed actions.
+
+**terraform apply**
+
+
+
+
+
+
 
 
 

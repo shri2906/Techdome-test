@@ -8,5 +8,5 @@ This document outlines the process of deploying a multi-container application co
 Frontend has Frontend part of application and Dockerfile for Containerization
 Backend has Backend part of application and with Dockerfile for Containerization
 
-.![Alt text](Screenshots/demo-screenshot-1.png)
+.![Alt text](Screenshots/demo-screenshot-1.jpg)
 

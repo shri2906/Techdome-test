@@ -68,8 +68,11 @@ including Deployment and Service file
 
 Once deployed, access the application inside Minikube. Interact with the application 
 
+**Frontend part**
 ![Alt text](/Screenshots/frontend-run-10.jpg)
 
+**express running as Backend
+and MongoDb running as DB**
 ![Alt text](/Screenshots/backend-db-run-11.jpg)
 
 

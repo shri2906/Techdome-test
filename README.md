@@ -6,7 +6,18 @@ Multi-Container Application Deployment with Docker Compose and Kubernetes
 
 This document outlines the process of deploying a multi-container application consisting of a frontend, backend, and database using Docker Compose and Kubernetes.
 
-Frontend has Frontend part of application and Dockerfile for Containerization
+Frontend has Frontend part of application and Dockerfile for Containerization. 
 Backend has Backend part of application and with Dockerfile for Containerization
 ![Alt text](Screenshots/demo-screenshot-1.jpg)
+
+**2. Application Architecture**
+
+The application architecture consists of three main components:
+
+Frontend: A web interface for users to interact with the application.
+
+Backend: An API server that processes requests from the frontend and interacts with the database.
+
+Database: A persistent data store for application data.
+
 

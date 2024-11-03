@@ -20,4 +20,11 @@ Backend: An API server that processes requests from the frontend and interacts w
 
 Database: A persistent data store for application data.
 
+**3. Setup Instructions Prerequisites**
 
+1) **Docker**
+2) **Docker Compose**
+3) **Minikube**
+4) **kubectl**
+
+**4. Docker Compose Configuration**

@@ -90,6 +90,18 @@ inside steps.txt steps are mentioned in order for accessing the application
 
 ![Alt text](/Screenshots/backend-db-run-11.jpg)
 
+**9. Challenges Faced**
+1) hard to connection between database and db
+
+Establishing a stable connection required ensuring the correct format for the database connection string and using the proper service name for DNS resolution in Kubernetes.
+
+2) Manage Minikube enviornment
+
+Allocating sufficient resources for Minikube was crucial to prevent performance issues, while configuring persistent storage for the database ensured data retention. 
+
+
+**BONUS**
+
 
 
 

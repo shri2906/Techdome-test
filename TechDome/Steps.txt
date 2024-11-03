@@ -24,7 +24,7 @@ kubectl version --client
 => Check Application runs on MiniKube Level
 =>>
 1) minikube ssh
-2) curl http://10.96.210.129:3000
-3) curl http://10.105.121.132:5000
+2) curl http://10.96.210.129:3000 (MINIKUBE IP) - For Frontend
+3) curl http://10.105.121.132:5000 (MINIKUBE IP) - For Backend
 4) kubectl exec -it backend-764bdd5689-4zfb8 -- bash
 

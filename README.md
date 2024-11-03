@@ -48,6 +48,7 @@ including Deployment and Service file
 **Backend**
 
 ![Alt text](/Screenshots/k8s-backend-ss-6.jpg)
+
 **Database**
 
 ![Alt text](/Screenshots/k8s-db-ss-7.jpg)

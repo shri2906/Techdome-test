@@ -24,6 +24,7 @@ Database: A persistent data store for application data.
 
 **3. Setup Instructions Prerequisites**
 
+there is file install.sh having steps to install all this tools 
 1) **Docker**
 2) **Docker Compose**
 3) **Minikube**
@@ -62,6 +63,16 @@ including Deployment and Service file
 
 **Kubernetes (k8s) Outputs**
 ![Alt text](/Screenshots/k8s-ss-9.jpg)
+
+**8. Check Application Functionality**
+
+Once deployed, access the application inside Minikube. Interact with the application 
+
+![Alt text](/Screenshots/frontend-run-10.jpg)
+
+![Alt text](/Screenshots/backend-db-run-11.jpg)
+
+
 
 
 

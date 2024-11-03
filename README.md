@@ -9,7 +9,9 @@ Multi-Container Application Deployment with Docker Compose and Kubernetes
 This document outlines the process of deploying a multi-container application consisting of a frontend, backend, and database using Docker Compose and Kubernetes.
 
 Frontend has Frontend part of application and Dockerfile for Containerization. 
+
 Backend has Backend part of application and with Dockerfile for Containerization
+
 ![Alt text](/Screenshots/demo-ss-1.jpg)
 
 **2. Application Architecture**
@@ -25,21 +27,28 @@ Database: A persistent data store for application data.
 **3. Setup Instructions Prerequisites**
 
 there is file install.sh having steps to install all this tools 
+
 1) **Docker**
 2) **Docker Compose**
 3) **Minikube**
 4) **kubectl**
 
 **4. Docker Compose Configuration**
+
 Create a docker-compose.yml file 
+
 ![Alt text](/Screenshots/docker-compose-file-ss-2.jpg)
 
 **5. Dockerfile for Frontend and Backend**
+
 Create Dockerflie for Frontend
+
 ![Alt text](/Screenshots/dockerfile-frontend-ss-3.jpg)
 
 **6. Dockerfile for Frontend and Backend**
+
 Create Dockerflie for Backend And DB
+
 ![Alt text](/Screenshots/backend-db-dockerfile-ss-4.jpg)
 
 **7.Kubernetes Deployment**
@@ -50,6 +59,7 @@ including Deployment and Service file
 **Frontend**
 
 ![Alt text](/Screenshots/k8s-frontend-ss-5.jpg)
+
 **Backend**
 
 ![Alt text](/Screenshots/k8s-backend-ss-6.jpg)
@@ -59,20 +69,25 @@ including Deployment and Service file
 ![Alt text](/Screenshots/k8s-db-ss-7.jpg)
 
 **Docker Outputs**
+
 ![Alt text](/Screenshots/docker-ss-8.jpg)
 
 **Kubernetes (k8s) Outputs**
+
 ![Alt text](/Screenshots/k8s-ss-9.jpg)
 
 **8. Check Application Functionality**
 
 Once deployed, access the application inside Minikube. Interact with the application 
+
 inside steps.txt steps are mentioned in order for accessing the application
+
 **Frontend part**
+
 ![Alt text](/Screenshots/frontend-run-10.jpg)
 
-**Express running as Backend
-and MongoDb running as DB**
+**Express running as Backend and MongoDb running as DB**
+
 ![Alt text](/Screenshots/backend-db-run-11.jpg)
 
 

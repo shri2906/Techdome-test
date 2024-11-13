@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-frontend-image
+        image: shrikh2906/techdome-frontend:latest
         ports:
         - containerPort: 3000
 ---
